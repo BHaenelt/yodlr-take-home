@@ -1,3 +1,49 @@
+My Implementation - Brittany Haenelt
+Completed Features
+Core Requirements 
+
+User Registration: Functional signup form with email, first name, and last name fields
+Admin Page: Clean table displaying all users with their information and status
+Professional Design: Bootstrap 5 styling with responsive layout
+
+Bonus Features 
+
+Form Validation: Email regex validation before API submission
+Sorting Functionality: Admin can sort users by ID, first name, last name, or email
+Activate Accounts: Admin button to change pending users to active status
+
+Technical Implementation
+Technologies Used
+
+Vanilla JavaScript (ES6+)
+Bootstrap 5 for styling
+Fetch API for REST API calls
+Async/await for handling promises
+
+Key Features
+
+New users are created with state: 'pending' by default
+Form validation prevents invalid email submissions
+Admin page dynamically updates after activating users (no page refresh needed)
+Clean, organized code with comments
+Proper error handling with try/catch blocks
+
+API Integration
+
+GET /users - Fetches all users for admin display
+POST /users - Creates new user from registration form
+PUT /users/:id - Updates user state from pending to active
+
+Time Spent
+Approximately 6 hours
+
+
+
+
+
+
+
+
 Yodlr Front End Engineer Code/Design Challenge
 =======================
 
